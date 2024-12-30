@@ -5,7 +5,7 @@ This project automates the process of selling textbooks on Carousell, addressing
 The script uses Selenium WebDriver to simpllify the posting process, ensuring that users can efficiently sell their textbooks without tedious manual entry.
 
 ### Prerequisites
-Python 3.x
+Python 3.x, git, pip
 
 ### Setup Instructions
 #### Step 1: Export Cookies
