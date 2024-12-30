@@ -1,0 +1,28 @@
+{
+    "chrome_options": {
+        "page_load_strategy": "eager",
+        "arguments": [
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "start-maximized",
+            "headless",
+            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
+        ]
+    },
+    "xpaths": {
+        "upload_photo_button": "//input[@type='file']",
+        "category": "//p[contains(text(), 'Select a category')]",
+        "category_input": "//input[@placeholder='Search for a category...']",
+        "category_select": "//div[@class='D_ann D_anu']",
+        "Brand new": "//span[contains(text(), 'Brand new')]",
+        "Like new": "//span[contains(text(), 'Like new')]",
+        "title_input": "//input[@placeholder='Name your listing']",
+        "description_input": "//textarea[@aria-label='Description (Optional)']",
+        "price_input": "//input[@placeholder='Price of your listing']",
+        "submit_button": "//button[@type='submit']"
+    },
+    "category": "Textbooks",
+    "textbooks": {
+        "level": "//span[contains(text(), 'Secondary')]"
+    }
+}
