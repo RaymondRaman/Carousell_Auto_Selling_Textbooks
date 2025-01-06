@@ -13,7 +13,7 @@
         "upload_photo_button": "//input[@type='file']",
         "category": "//p[contains(text(), 'Select a category')]",
         "category_input": "//input[@placeholder='Search for a category...']",
-        "category_select": "//div[@class='D_ann D_anu']",
+        "category_select": "/html/body/div[1]/div/main/div/div/div/div[2]/div/div[2]/div[3]/div[1]/div/span/span[2]",
         "Brand new": "//span[contains(text(), 'Brand new')]",
         "Like new": "//span[contains(text(), 'Like new')]",
         "title_input": "//input[@placeholder='Name your listing']",
